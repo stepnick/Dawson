@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "interval", "interval\interval.pyproj", "{4D4EA82C-3D16-41F4-86C0-DFF4B01BEB68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D4EA82C-3D16-41F4-86C0-DFF4B01BEB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4EA82C-3D16-41F4-86C0-DFF4B01BEB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C85F1A86-B72E-4FFB-B2FE-9444A21A5C61}
+	EndGlobalSection
+EndGlobal
