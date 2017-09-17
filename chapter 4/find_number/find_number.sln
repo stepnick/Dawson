@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "find_number", "find_number\find_number.pyproj", "{17B838D8-FA6C-4F57-B3C6-D6486A3C3FFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17B838D8-FA6C-4F57-B3C6-D6486A3C3FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B838D8-FA6C-4F57-B3C6-D6486A3C3FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {574DCCD9-5D6C-4B9E-B12B-169077183478}
+	EndGlobalSection
+EndGlobal
