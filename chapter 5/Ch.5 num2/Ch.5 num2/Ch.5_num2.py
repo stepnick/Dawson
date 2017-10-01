@@ -11,7 +11,7 @@ while choice != 0:
     0 - Выйти
     1 - Добавить характеристку
     2 - Убрать пункты характреристики
-    3 - посмотреть характеристику
+    3 - Посмотреть характеристику
     """)
     choice = input("Введите цифру: ")
     if choice == "1":
@@ -51,19 +51,19 @@ while choice != 0:
         if choice == "0":
             Agility -= 1 
             points += 1
-            print("Ловкость - ", Agility,". У вас осталось", points,"очков.")
+            print("Ловкость - ", Agility,". У вас осталось", points,"очко.")
         if choice == "1":
             Power -= 1 
             points += 1
-            print("Сила - ", Power,". У вас осталось", points,"очков.")
+            print("Сила - ", Power,". У вас осталось", points,"очко.")
         if choice == "2":
             Health -= 1 
             points += 1
-            print("Здоровье - ", Health,". У вас осталось", points,"очков.")
+            print("Здоровье - ", Health,". У вас осталось", points,"очко.")
         if choice == "3":
             Knowlage -= 1 
             points += 1
-            print("Мудрость - ", Knowlage,". У вас осталось", points,"очков.")
+            print("Мудрость - ", Knowlage,". У вас осталось", points,"очко.")
     elif choice == "3":
         print("Ваша характеристика: ")
         print("Ловкость - ", Agility,"очков",
