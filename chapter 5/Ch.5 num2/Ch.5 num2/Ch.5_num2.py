@@ -26,19 +26,19 @@ while choice != 0:
         if choice == "0":
             Agility += 1 
             points -= 1 
-            print("Ловкость - ", Agility,". У вас осталось", points,"очков.")
+            print("Ловкость - ", Agility * "*")
         if choice == "1":
             Power += 1 
             points -= 1 
-            print("Сила - ", Power,". У вас осталось", points,"очков.")
+            print("Сила - ", Power * "*")
         if choice == "2":
             Health += 1 
             points -= 1 
-            print("Здоровье - ", Health,". У вас осталось", points,"очков.")
+            print("Здоровье - ", Health * "*")
         if choice == "3":
             Knowlage += 1 
             points -= 1 
-            print("Мудрость - ", Knowlage,". У вас осталось", points,"очков.")
+            print("Мудрость - ", Knowlage * "*")
     elif choice == "2":
         print(
             """
@@ -51,25 +51,25 @@ while choice != 0:
         if choice == "0":
             Agility -= 1 
             points += 1
-            print("Ловкость - ", Agility,". У вас осталось", points,"очко.")
+            print("Ловкость - ", Agility * "*")
         if choice == "1":
             Power -= 1 
             points += 1
-            print("Сила - ", Power,". У вас осталось", points,"очко.")
+            print("Сила - ", Power * "*")
         if choice == "2":
             Health -= 1 
             points += 1
-            print("Здоровье - ", Health,". У вас осталось", points,"очко.")
+            print("Здоровье - ", Health * "*")
         if choice == "3":
             Knowlage -= 1 
             points += 1
-            print("Мудрость - ", Knowlage,". У вас осталось", points,"очко.")
+            print("Мудрость - ", Knowlage * "*")
     elif choice == "3":
         print("Ваша характеристика: ")
-        print("Ловкость - ", Agility,"очков",
-              "Сила - ", Power, "очков",
-              "Здоровье", Health, "очков",
-              "Мудрость", Knowlage,"очков")
+        print("Ловкость - ", Agility * "*")
+        print("Сила - ", Power * "*")
+        print("Здоровье -", Health * "*")
+        print("Мудрость -", Knowlage * "*")
     else :
         print("До свидания.")
 
