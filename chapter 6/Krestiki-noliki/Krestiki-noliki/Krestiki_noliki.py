@@ -43,13 +43,14 @@ def pieces():
     """Определяет принадлежность первого хода"""
     go_first = ask_yes_no("Хочешь оставить за собой первый ход?")
     if go_first == "y":
-        print("Ну что ж, даю тебе фору: ирай крестиками")
+        print("Ну что ж, даю тебе фору: иргай крестиками")
         human = X 
         computer = O 
     else:
         print("Твоя удаль тебя погубит... Буду начинать я.")
         computer = X
         human = O 
+    return computer, human
 
 
 
@@ -61,7 +62,7 @@ def new_board():
     return board 
 
 
-def display_board():
+def display_board(board):
     """Отображает игровую доску на экране."""
     print("\n\t", board[0], "|", board[1], "|", board[2])
     print("\t", "---------")
@@ -112,9 +113,9 @@ def human_move(board, human):
 
 
 
-def computer_move():
+def computer_move(board, computer, human):
     """Делает ход за компьютер"""
-    board = board[ : ]
+    board = board[:]
     BEST_MOVES = (4, 0, 2, 6, 8, 1, 3, 5, 7)
     print("Я выберу поле номер:", end = " ")
     for move in legal_moves(board):
@@ -146,7 +147,7 @@ def nest_turn(turn):
 def congrat_winner(the_winner, computer, human):
     """Поздравляет победителя"""
     if winner != TIE :
-        print("Три", the_winner,"в ряд!\n")
+        print("Три в ряд!\n")
     else:
         print("Ничья!\n")
     if the_winner == computer :
@@ -161,8 +162,8 @@ def congrat_winner(the_winner, computer, human):
 
 def main():
     display_instruct()
-    computer = pieces()
-    human = pieces()
+    computer, human = pieces()
+    
     turn = X 
     board = new_board()
     display_board(board)

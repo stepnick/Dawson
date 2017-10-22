@@ -1,4 +1,7 @@
-points = 30
+char = {"" : "",
+        "" : "",
+        "" : "",
+        "" : ""}
 Power = 0
 Agility = 0
 Health = 0 
